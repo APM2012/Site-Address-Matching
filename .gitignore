@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (results - don't commit large CSVs)
+*_results.csv
+*_results_check.csv
+cascading_pipeline_*.csv
+geocode_site_matching_results.csv
+site_matching_sentence_transformer_results.csv
+site_matching_usaddress_only_results.csv
+hierarchical_matching_results_check.csv
+site_address_matching_new_approach_results.csv
+
+# Input data files (user should provide their own)
+iqvia_geocoded.csv
+Itovebi_Hr_plus_Sites.csv
+
+# System files
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
